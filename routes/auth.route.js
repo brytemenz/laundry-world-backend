@@ -1,6 +1,6 @@
 const express = require('express');
 const authRouter = express.Router();
-const { register, login, logout, sendVerifyOtp, verifyEmail, isAuthenticated, sendResetOtp, resetPassword } = require('../controllers/auth.controller');
+const { register, login, logout, sendVerifyOtp, verifyEmail, isAuthenticated, sendResetOtp, resetPassword} = require('../controllers/auth.controller');
 const userAuth = require('../middleware/user.auth');
 const { verify } = require('../config/nodemailer');
 
