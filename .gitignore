@@ -1,2 +1,36 @@
-node_modules
+# Node modules
+node_modules/
+
+# Environment variables
 .env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts
+dist/
+build/
+
+# Coverage
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# pnpm
+.pnpm-debug.log*
+.pnpm-store/
+.pnpm-lock.yaml
